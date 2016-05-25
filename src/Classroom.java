@@ -63,7 +63,7 @@ public void addtroop(){
 	public void click(Graphics g,int tX, int tY){
 		Classroom b1 = new Classroom(this.getnumtroops(), tX, tY, name);
 		clickedDraw(b1, g,tX, tY,b1.getnumtroops());
-		this.addtroop();
+		//this.addtroop();
 	}
 	
 	private void clickedDraw(Classroom buildsMe,Graphics g, int x, int y,int troops) {
