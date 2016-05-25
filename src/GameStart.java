@@ -1,0 +1,18 @@
+import javax.swing.JFrame;
+
+public class GameStart extends JFrame{
+
+	public GameStart() {
+		super("Risk!");
+		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		this.add(new GraphicsPanel());
+		this.pack();
+		this.setVisible(true);
+		super.setResizable(false);
+	
+	}
+	
+	public static void main(String[] args) {
+		new GameStart();
+	}
+}
